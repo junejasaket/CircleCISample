@@ -9,5 +9,4 @@
     
      steps:
        - checkout
-       - run: cd CircleCISample
-       - run: dotnet build
+       - run: dotnet build CircleCISample
