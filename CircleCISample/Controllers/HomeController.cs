@@ -1,18 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using CircleCISample.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using CircleCISample.Models;
+using System.Diagnostics;
 
 namespace CircleCISample.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
+        q3warfq3wa
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
